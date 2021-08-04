@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="foco()" >
+    <header></header>
+    <p id="descricao">Descrição do exercício:
+        <br>Calcule a média de diversas notas digitadas pelo usuário.
+    </p>
+    <p id="status">Status: Exercício Concluído ✔️</p>
+    <h1>Calculo de média:</h1>
+    </header>
+    <section id="mediaSection">
+        <div>
+            <p>
+                Quantas notas serão inseridas?
+                <input type="number" id="qtdInputs" class="inputNumber" oninput="criarInputs()" min="2">
+            </p>
+        </div>
+        <div id="divResultado">
+
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy; Programmed by <a href="http://github.com/Diego-goes" target="_blank">Diego Góes</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

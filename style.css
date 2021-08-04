@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(245, 157, 26);
+    font: normal 20pt arial;
+    color: white;
+    text-align: center;
+}
+section{
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(46, 34, 34);
+    margin: auto;
+}
+#descricao{
+    text-align: center;
+    font-size: 13pt;
+    padding: 20px;
+    background-color: rgb(238, 146, 25);
+    width: 800px;
+    margin:auto;
+    border-radius: 10px;
+}
+#status{
+    text-align: center;
+    font-size: 13pt;
+    padding: 5px;
+    background-color: rgb(238, 146, 25);
+    width: 250px;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.inputNumber{
+    padding: 3px;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+    border-color: gold;
+}
+.inputButton{
+    padding: 7px;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+    background-color: white;
+    border-color: gold;
+}
+footer{
+    font-size: 15pt;
+    font-style: italic;
+}
+hr{
+    margin-top: 20px;
+}
