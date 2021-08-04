@@ -1,6 +1,6 @@
 <header>
         <h1> Diego Rodrigues Góes </h1>
-        <small>Futuro desenvolver.</small>
+        <i><small>Futuro desenvolver.</small></i>
         <hr>
         <h3>Abaixo segue algumas informações sobre mim:</h3>
     </header>
